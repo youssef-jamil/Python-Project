@@ -10,7 +10,6 @@ def get_user_choice():
     return choice
 
 
-# بببببببب
 def get_computer_choice():
     return random.choice(["r", "p", "s"])
 
