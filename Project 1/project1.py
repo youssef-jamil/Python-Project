@@ -74,19 +74,19 @@ list_output = output_results()
 
 if list_output[2] == "Player 1":
     print("========================================================")
-    print("🎯 Game Over!")
+    print("Game Over!")
     print(
         f"You win the game with {list_output[0]} rounds won.and the score of the game is {list_output[0]}:{list_output[1]} for You.and tie in {list_output[3]} rounds."
     )
 elif list_output[2] == "Player 2":
     print("========================================================")
-    print("🎯 Game Over!")
+    print("Game Over!")
     print(
         f"Computer is wins the game with {list_output[1]} rounds won.and the score of the game is {list_output[0]}:{list_output[1]} for the Computer.and tie in {list_output[3]} rounds."
     )
 else:
     print("========================================================")
-    print("🎯 Game Over!")
+    print("Game Over!")
 
     print(
         f"the game is a tie with the score of {list_output[0]}:{list_output[1]} for both players.and in this game there is no winner and tie in {list_output[3]} rounds."
